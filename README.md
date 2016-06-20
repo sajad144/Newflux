@@ -38,11 +38,12 @@ Will ask you for a phone number & confirmation code.
 ./redis-server.sh #In new terminal.
 
 -----------
-''
+
+=====================
 And enjoy the best bot
 
-''
-=====================
+-----------------
+
 Bot commands
 =====================
 
