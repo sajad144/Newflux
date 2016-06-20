@@ -1,7 +1,7 @@
-New (super) flux BY Sajad Aliraqe
+- New (super) flux BY Sajad Aliraqe
 ============
 
-To install on C9 your next steps
+- To install on C9 your next steps ✅
 -----------
 
 #1-Type :
@@ -32,7 +32,7 @@ chmod +x launch.sh
 
 ./launch.sh 
 
-Will ask you for a phone number & confirmation code.
+Will ask you for a phone number & confirmation code. 
 
 #8-Type :
 
@@ -41,12 +41,12 @@ Will ask you for a phone number & confirmation code.
 -----------------
 
 =====================
-And enjoy the best bot
+- And enjoy the best bot ✅
 =====================
 
 -----------------
 
-Bot commands
+- Bot commands
 =====================
 
 Thes commands for only sudo :
