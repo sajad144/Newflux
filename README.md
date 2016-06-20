@@ -24,14 +24,13 @@ chmod +x launch.sh
 
 ./launch.sh 
 
-# Will ask you for a phone number & confirmation code.
+Will ask you for a phone number & confirmation code.
 
 -----------
 info :
 -----------
-Coded By Sajad Aliraqe 
+- Coded By Sajad Aliraqe 
 
-Tele : @SasO_0
+- Tele : [@SasO_0]
 
-Channel : @Helper12
-..........
+- Channel : [@Helper12]
