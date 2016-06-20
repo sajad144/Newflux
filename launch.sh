@@ -140,5 +140,12 @@ else
     exit 1
   fi
 
+echo -e "\033[38;5;208m"
+   echo -e "       C O D E D BY :  S A J A D AL I R A Q E           "
+   echo -e "                      \033[0;00m"
+   echo -e "                TELE : SasO_0                           "
+   echo -e "\e[36m"
+
+
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E
 fi
