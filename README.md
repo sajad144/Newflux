@@ -36,7 +36,9 @@ Will ask you for a phone number & confirmation code.
 
 #8-Type :
 
-./redis-server.sh #In new terminal.
+./redis-server.sh 
+
+Thes Command in a new terminal.
 
 -----------------
 
