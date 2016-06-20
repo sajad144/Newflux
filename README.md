@@ -21,6 +21,7 @@ chmod +x launch.sh
 
 ./launch.sh install
 
+./redis-server.sh #In new terminal.
 
 ./launch.sh 
 
