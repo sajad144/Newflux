@@ -1,4 +1,4 @@
-New (super) flux (telegram-bot)
+New (super) flux BY Sajad Aliraqe
 ============
 
 To install on C9 your next steps
@@ -22,7 +22,9 @@ chmod +x launch.sh
 ./launch.sh install
 
 
-./launch.sh # Will ask you for a phone number & confirmation code.
+./launch.sh 
+
+# Will ask you for a phone number & confirmation code.
 
 -----------
 info :
@@ -32,3 +34,4 @@ Coded By Sajad Aliraqe
 Tele : @SasO_0
 
 Channel : @Helper12
+..........
