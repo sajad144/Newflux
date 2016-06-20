@@ -1,7 +1,7 @@
 New (super) flux (telegram-bot)
 ============
-
-[To install on C9 your next steps]
+```
+To install on C9 your next steps
 ------------------------
 
 sudo apt-get update
@@ -12,9 +12,15 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 git clone https://github.com/sajad144/Newflux.git
 
+
 cd Newflux
 
+
+chmod +x launch.sh
+
+
 ./launch.sh install
+
 
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
