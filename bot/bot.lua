@@ -232,6 +232,7 @@ function create_config( )
     "bot",
     "tag",
     "update",
+    "upgrade",
     "plugins"
       },
     sudo_users = {199130762,0},
