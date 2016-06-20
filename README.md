@@ -25,8 +25,10 @@ chmod +x launch.sh
 ./launch.sh # Will ask you for a phone number & confirmation code.
 
 -----------
-[info]
+info :
 -----------
 Coded By Sajad Aliraqe 
+
 Tele : @SasO_0
+
 Channel : @Helper12
