@@ -31,6 +31,8 @@ info :
 -----------
 - Coded By Sajad Aliraqe 
 
-- Tele : [@SasO_0]
+- Tele : @SasO_0
 
-- Channel : [@Helper12]
+- Channel : @Helper12
+
+-----------
