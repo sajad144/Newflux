@@ -58,21 +58,6 @@ install_rocks() {
     then echo "Error. Exiting."; exit $RET;
   fi
 
-  ./.luarocks/bin/luarocks install luafilesystem
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-
-  ./.luarocks/bin/luarocks install lub
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-
-  ./.luarocks/bin/luarocks install luaexpat
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi  
-  
   ./.luarocks/bin/luarocks install xml
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
@@ -82,23 +67,8 @@ install_rocks() {
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
   fi
-  
+
   ./.luarocks/bin/luarocks install serpent
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-  
-  ./.luarocks/bin/luarocks install lunitx
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-  
-  ./.luarocks/bin/luarocks install set
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-  
-  ./.luarocks/bin/luarocks install htmlparser
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
   fi
@@ -107,15 +77,16 @@ install_rocks() {
 install() {
   git pull
   git submodule update --init --recursive
-  cd tg && ./configure && make
-  
-  RET=$?; if [ $RET -ne 0 ]; then
-    echo "Trying without Python...";
-    ./configure --disable-python && make
-    RET=$?
-  fi
-  
+  patch -i "patches/disable-python-and-libjansson.patch" -p 0 --batch --forward
+  RET=$?;
+
+  cd tg
   if [ $RET -ne 0 ]; then
+    autoconf -i
+  fi
+  ./configure && make
+
+  RET=$?; if [ $RET -ne 0 ]; then
     echo "Error. Exiting."; exit $RET;
   fi
   cd ..
@@ -140,12 +111,15 @@ else
     exit 1
   fi
 
+  if [ -f $HOME/.telegram-cli/state ]; then
+    echo "state found"
+  fi
+  
 echo -e "\033[38;5;208m"
    echo -e "       C O D E D BY :  S A J A D AL I R A Q E           "
    echo -e "                      \033[0;00m"
    echo -e "                TELE : SasO_0                           "
    echo -e "\e[36m"
 
-
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@ --disable-link-preview
 fi
