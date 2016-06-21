@@ -170,8 +170,10 @@ info :
 --------
 - Coded By Sajad Aliraqe 
 
-- Tele : @SasO_0
+[**Developers Group**](https://telegram.me/joinchat/Csb3vT-OnpRoZ3YzceYN2Q)
 
-- Channel : @Helper12
+**[Tele](https://telegram.me/SasO_0)**
+
+**[Channel](https://telegram.me/Helper12)**
 
 -----------
