@@ -168,11 +168,10 @@ Thes Commands for admins :
 --------
 info :
 --------
-- Coded By Sajad Aliraqe 
 
 [**Developers Group**](https://telegram.me/joinchat/Csb3vT-OnpRoZ3YzceYN2Q)
 
-**[Tele](https://telegram.me/SasO_0)**
+**[Sajad Aliraqe](https://telegram.me/SasO_0)**
 
 **[Channel](https://telegram.me/Helper12)**
 
