@@ -6,8 +6,8 @@ end
 end
 
 return {
-	description = "anti help by sajad", 
-	usage = "anti help",
+	description = "info help by sajad", 
+	usage = "info help",
 	patterns = {
     "^/help$",
 
