@@ -8,7 +8,6 @@ return {
   usage = "",
   patterns = {
     "^([!/]dev)$",
-    "^(dev)$"
   },
   run = run
 }
