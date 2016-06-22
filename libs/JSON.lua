@@ -18,6 +18,7 @@ local VERSION = 20141223.14 -- version history at end of file
 local AUTHOR_NOTE = "-[ JSON.lua package by Jeffrey Friedl (http://regex.info/blog/lua/json) version 20141223.14 ]-"
 
 --
+
 -- The 'AUTHOR_NOTE' variable exists so that information about the source
 -- of the package is maintained even in compiled versions. It's also
 -- included in OBJDEF below mostly to quiet warnings about unused variables.
