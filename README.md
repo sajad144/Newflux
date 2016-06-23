@@ -36,10 +36,9 @@ Will ask you for a phone number & confirmation code.
 
 #8-Run thes files :
 
-1- redis-server.sh 
-2- launch.sh
+- redis-server.sh 
 
-Thes Command in a new terminal.
+- launch.sh
 
 -----------------
 
