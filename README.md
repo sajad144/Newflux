@@ -171,8 +171,9 @@ info :
 
 [**Developers Group**](https://telegram.me/joinchat/Csb3vT-OnpRoZ3YzceYN2Q)
 
-**[Sajad Aliraqe](https://telegram.me/SasO_0)**
+- **[Sajad Aliraqe](https://telegram.me/SasO_0)**
 
-**[Channel](https://telegram.me/Helper12)**
+- **[Channel](https://telegram.me/Helper12)**
+
 
 -----------
