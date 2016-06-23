@@ -34,9 +34,10 @@ chmod +x launch.sh
 
 Will ask you for a phone number & confirmation code. 
 
-#8-Type :
+#8-Run thes files :
 
-./redis-server.sh 
+1- redis-server.sh 
+2- launch.sh
 
 Thes Command in a new terminal.
 
