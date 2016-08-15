@@ -169,7 +169,7 @@ Thes Commands for admins :
 info :
 --------
 
--  [**Developers Group**](https://telegram.me/joinchat/Csb3vT-OnpRoZ3YzceYN2Q)
+-  [**Developers Group**](https://telegram.me/joinchat/C77WrUEw5Y74HmM-EEJTGQ)
 
 - **[Sajad Aliraqe](https://telegram.me/SasO_0)**
 
